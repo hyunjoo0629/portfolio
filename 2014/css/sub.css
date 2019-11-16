@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+@import "common.css";
+@import "layout.css";
+@import "sublayout.css";
+@import "subani.css";
+@import "fonts.css";
+
+
+
+/* container01 */
+#container01 {height:577px} 
+#container01:after {content:""; display:block; clear:both}
+#container01 .conbody01 {width:676px; height:450px; position:relative;}
+		
+#container01 .conbody01 .abtxt {float:left; width:257px; height:322px; margin: 23px 0 0 55px}
+#container01 .conbody01 .abtxt blockquote {color:#5a3a20; font-weight: bold; font-size:15px}
+#container01 .conbody01 .abtxt dl {margin-top:40px}
+#container01 .conbody01 .abtxt dt {width:155px; height:22px; background-color:#453c3a; color:#c29d6b; font-weight: bold; 
+                                text-transform:uppercase; letter-spacing: 1px; font-size:14px; padding-left:12px}
+#container01 .conbody01 .abtxt dd {padding:10px 0 0 13px; font-size:13px; color:#453c3a; text-transform:uppercase; font-weight: bold}
+#container01 .conbody01 .abtxt dd span {color:#a81818;}
+#container01 .conbody01 .abimg {float:right; width:363px; height:325px}
+#container01 .conbody01 .abimg span {position:relative; top:7px; right:0; z-index:20}
+#container01 .conbody01 .abimg .imgme {position:absolute; top:7px; right:36px; z-index:10}
+#container01 .conbody01 p.back {position:absolute; bottom:28px; right:44px; z-index:30;}
+
+
+
+/* container02 */
+#container02 {height:577px} 
+#container02:after {content:""; display:block; clear:both}
+#container02 .conbody02{width:676px; height:450px; position:relative; 
+                       background:url(../sub2Img/monun.jpg) no-repeat 37px 5px}
+                                               
+#container02 .conbody02 .graph {float:left; width:320px; height:278px; margin-left:48px; 
+                                background:url(../sub2Img/line.png) no-repeat 0px 18px;}
+                                                              
+#container02 .conbody02 .graph dl {float:left; position:absolute; top:35px; left: 45px}
+#container02 .conbody02 .graph dl dt {padding-left:34px; font-weight: bold; font-size:24px; color:#453c3a; letter-spacing: 1.7px}
+#container02 .conbody02 .graph dl dd {position:absolute; cursor: pointer}
+#container02 .conbody02 .graph dl dd p {font-size:13px; text-transform: uppercase; font-weight: bold;  color:#453c3a; cursor: pointer}
+#container02 .conbody02 .graph dl dd.gr1{top:40px; left: 40px}
+#container02 .conbody02 .graph dl dd.gr1 p {width:62px; height:28px;  background:url(../sub2Img/oaline.png) no-repeat 23px 10px ; 
+                                                                                  top:8px; left: -22px; transition:0.5s ease-in-out; opacity:0; cursor: pointer}
+#container02 .conbody02 .graph dl dd.gr1:hover p {opacity:1}
+#container02 .conbody02 .graph dl dd.gr2{top:117px; left: 34px}
+#container02 .conbody02 .graph dl dd.gr2 p {width:50px; height:60px; background:url(../sub2Img/deline.png) no-repeat 25px 0 ; 
+                                                                                  top:30px; left: -35px; padding:50px 0 0 0; transition:0.5s ease-in-out; opacity:0; cursor: pointer}
+#container02 .conbody02 .graph dl dd.gr2:hover p {opacity:1}
+#container02 .conbody02 .graph dl dd.gr3{top:193px; left: 59px}
+#container02 .conbody02 .graph dl dd.gr3 p {width:78px; height:36px; background:url(../sub2Img/webline.png) no-repeat 37px 0 ; 
+                                                                                  top:35px; left: -40px; padding:13px 0 0 0;  transition:0.5s ease-in-out; opacity:0; cursor: pointer}
+#container02 .conbody02 .graph dl dd.gr3:hover p {opacity:1}
+
+#container02 .conbody02 .graph  span {position:absolute; top:104px; left:185px;  width:181px; height:0; border-top:2px solid #453c3a; text-indent:-9999px}
+#container02 .conbody02 .graph p {clear:both; position:absolute; top:105px; left:107px}
+#container02 .conbody02 .graph p.graf {position:absolute; top:103px; left:109px}
+#container02 .conbody02 .graph p.txt {position:absolute; top:160px; left:136px; color:#bd9f73; font-weight:bold; font-size:18px;
+                                                                       text-transform: uppercase; line-height:25px}
+#container02 .conbody02 .graph .pro {position:relative; margin:89px 0 0 200px}                                                                       
+#container02 .conbody02 .graph .pro h3{color:#453c3a; font-size:15px; text-transform: uppercase; padding-left:5px; letter-spacing: -1px}
+#container02 .conbody02 .graph .pro ul {position:absolute; width:115px; height:117px; background-color:hsla(39, 20%, 22%, 0.2); 
+                                                                           top:15px; left:0; padding:10px 0 0 6px;}
+#container02 .conbody02 .graph .pro ul h4 {background:url(../common/img/blet.png)no-repeat 0 5px; color:#453c3a; font-size:15px;
+                                                                                text-transform:uppercase; padding-left:10px}
+#container02 .conbody02 .graph .pro ul li {line-height:35px}                                                  
+#container02 .conbody02 .graph .pro ul li.dream {font-size:11px}                                                  
+#container02 .conbody02 .graph .pro ul li img {margin:6px 5px 0 0}                                                  
+#container02 .conbody02 .graph .pro ul.oa {display:none}
+#container02 .conbody02 .graph .pro ul.design {display:none}
+#container02 .conbody02 .graph .pro ul.web {display:block}
+#container02 .conbody02 .graph p.over {background:url(../sub2Img/reover.png)no-repeat 0 0;  margin:153px 0 0 130px; font-size:13px; 
+                                                                          font-weight:bold; text-transform:uppercase; padding:5px 0 0 20px}
+                                                                          
+#container02 .conbody02 .abtxt {float:right; width:220px; height:154px; margin-right:65px;}
+#container02 .conbody02 .abtxt dl {margin-top:37px}
+#container02 .conbody02 .abtxt dt {width:160px; height:22px; background-color:#453c3a; color:#c29d6b; font-weight: bold; 
+                                                                 text-transform:uppercase;  font-size:14px; padding:3px 0 0 12px; letter-spacing: 1.1px}
+#container02 .conbody02 .abtxt dd {padding:30px 0 0 13px; font-size:13px; color:#453c3a; text-transform:uppercase; font-weight: bold}
+#container02 .conbody02 .abtxt dd span {color:#a81818;}
+#container02 .conbody02 .abtxt dd span.pd {padding-left:35px; color:#453c3a;}
+
+
+/* container03*/
+#container03 {height:577px} 
+#container03:after {content:""; display:block; clear:both}
+#container03 .conbody03{width:676px; height:450px; position:relative;}
+#container03 .conbody03 p.mouseclick {position:absolute; bottom:25px; right:55px; font-size:16px; 
+                                     color:#2f2824; font-weight:bold; font-family: NanumBG;}
+#container03 .conbody03 p span {color:#bb2020; padding-right:5px;}
+#container03 .conbody03 ul {margin: 30px 0 0 50px; position:relative}
+#container03 .conbody03 ul li {position:absolute; top:0; left:0;}
+#container03 .conbody03 ul li p {position:absolute; text-align: center; border:3px solid #d06d1d; opacity:0; top:0px; left:0px; 
+                                                            font-weight:bold; font-size:12px; transition:0.5s ease-in-out; 
+                                                           -moz-transition:0.5s ease-in-out; 
+                                                            -webkit-transition:0.5s ease-in-out; 
+                                                           -ms-transition:0.5s ease-in-out; 
+                                                            -o-transition:0.5s ease-in-out; }
+#container03 .conbody03 ul li p span {font-family: Arial ; font-size:14px; color:#d06d1d}
+#container03 .conbody03 ul li:hover p { position:absolute; top:0; left:0; background:hsla(31, 100%, 3%, 0.9);  color:#bd9766; cursor: pointer; opacity:1;}
+#container03 .conbody03 ul li.mo1 {top:0; left:0;}
+#container03 .conbody03 ul li.mo1 p {width:278px; height:56px;  line-height: 20px; padding: 60px 0 }
+#container03 .conbody03 ul li.mo2 {top:0; left:292px}
+#container03 .conbody03 ul li.mo2 p {width:132px; height:76px;  line-height: 20px; padding: 50px 0 }
+#container03 .conbody03 ul li.mo3 {top:0; left:438px}
+#container03 .conbody03 ul li.mo3 p {width:132px; height:61px;  line-height: 20px; padding: 10px 0 }
+#container03 .conbody03 ul li.mo4 {top:95px; left:438px}
+#container03 .conbody03 ul li.mo4 p {width:132px; height:31px;  line-height: 20px; padding: 25px 0 }
+#container03 .conbody03 ul li.mo5 {top:190px; left:0}
+#container03 .conbody03 ul li.mo5 p {width:278px; height:37px;  line-height: 20px; padding: 22px 0 }
+#container03 .conbody03 ul li.mo6 {top:190px; left:292px; width:136px; height:45px; background:#241e19;
+                                                                                text-align: center; line-height: 15px; font-size:15px; font-weight:bold;
+                                                                                padding: 20px 0 20px 0; color:#bd9766; box-shadow: inset 0 0 5px 3px #000}
+#container03 .conbody03 ul li.mo6 span {font-size:18px}
+#container03 .conbody03 ul li.mo7 {top:285px; left:0}
+#container03 .conbody03 ul li.mo7 p {width:132px; height:61px;  line-height: 20px; padding: 10px 0 }
+#container03 .conbody03 ul li.mo8 {top:285px; left:146px}
+#container03 .conbody03 ul li.mo8 p {width:278px; height:37px;  line-height: 20px; padding: 22px 0}
+#container03 .conbody03 ul li.mo9 {top:190px; left:438px}
+#container03 .conbody03 ul li.mo9 p {width:132px; height:36px;  line-height: 20px; padding: 70px 0}
+
+
+
+/* container04*/
+#container04 {height:577px} 
+#container04:after {content:""; display:block; clear:both}
+#container04 .conbody04{width:676px; height:450px; position:relative;}
+#container04 .conbody04 p.imgline {position:absolute; z-index:20; top:20px; left:-1px}
+#container04 .conbody04  .imgView .img img {float:left; position:absolute; top:24px; left:30px; z-index:10}
+#container04 .conbody04  .imgView ul {float:right; margin:22px 30px 0 0; width:280px; height:156px; position:relative; z-index: 30}
+#container04 .conbody04  .imgView li {position:absolute; top:0; left:0; width:66px; height:87px; cursor:pointer;
+                                                                       background: url(../sub4Img/gallsub.png) no-repeat 0 0; padding:5px 3px}
+#container04 .conbody04  .imgView li.gabtn1 {top:0; left:0}
+#container04 .conbody04  .imgView li.gabtn2 {top:0; left:70px}
+#container04 .conbody04  .imgView li.gabtn3 {top:0; left:140px}
+#container04 .conbody04  .imgView li.gabtn4 {top:0; left:210px}
+#container04 .conbody04  .imgView li.gabtn5 {top:70px; left:35px}
+#container04 .conbody04  .imgView li.gabtn6 {top:70px; left:105px}
+#container04 .conbody04  .imgView li.gabtn7 {top:70px; left:175px}
+#container04 .conbody04 .galtxt {float:right; width:282px; height:125px; margin-right:35px;}
+#container04 .conbody04 .galtxt dl {position:absolute; right:36px; bottom:110px; z-index: 40;}
+#container04 .conbody04 .galtxt dt {width:202px; height:20px; background-color:#453c3a; color:#c29d6b; font-weight: bold; 
+                                                             text-transform:uppercase; letter-spacing: 1px; font-size:13px; padding: 2px 0 0 12px }
+#container04 .conbody04 .galtxt dd {padding:15px 0 7px 12px; font-size:12px; color:#453c3a; text-transform:uppercase; font-weight: bold}
+#container04 .conbody04 .galtxt dd span {padding-left:105px}
+
+
+/* container06 */
+#container06 {height:577px} 
+#container06:after {content:""; display:block; clear:both}
+#conbody06 {width:676px; height:450px; float:left; position:relative;}
+#board {width:600px; margin-top:25px; margin-left:45px; font:12px Dotum, sans-serif; color:#666; text-decoration:none;}
+#board .bbs {width:100%; border-collapse:collapse; }
+#board table {margin-top:13px;}
+#board .bbs th, .bbs td {border:0; font:12px Dotum, sans-serif;}
+#board .bbs th {color:#d2bc98; font-weight: bold; border:2px solid #553c30; height:28px}
+#board h3 {font-size:13px; color:#554230; font-family: NanumBG; position:absolute; top:0; right:45px}
+#board .bbs th.no{background:hsla(32, 99%, 13%, 0.6);}
+#board .bbs th.hit{background:hsla(32, 99%, 13%, 0.6);}
+#board .bbs th.title{background:hsla(32, 99%, 13%, 0.6);}
+#board .bbs th.writer{background:hsla(32, 99%, 13%, 0.6);}
+#board .bbs th.data{background:hsla(32, 99%, 13%, 0.6);}
+
+ 
+ 
+#board .bbs td {height:30px; text-align:center; border-bottom:1px solid #553c30; font:12px/30px Dotum, sans-serif; color:#554230; text-decoration:none;}
+#board .bbs td.title {text-align:left; padding-left:10px;} 
+#board .bbs td.title span {margin-left:10px} 
+#board .bbs td.title a {color:#554230; text-decoration:none;}
+#board .bbs td.title a:hover {color:#13136a;}
+#board .bbs td.writer {text-align:center; font-weight: bold;}
+#board .bbs td.writer p {margin-left:10px;}
+#board .bbs td.writer p * {vertical-align:middle;}
+#board .bbs td.writer span {margin-right:5px;}
+#board .bbs .bbs_butt p{height:30px; padding-top:10px; background:hsla(32, 99%, 13%, 0.6);}
+#board .bbs .bbs_write_butt p{text-align:right;}
+#board .bbs .bbs_write_butt p a img {margin:0 20px 12px 0}
+#board .bbs .bottom {height:50px; border:none;}
+#board .bbs .bottom a {min-width:18px; margin-top:13px; display:inline-block; padding:2px;
+ font-weight:bold; color:#d2bc98; font:11px/20px Dotum, sans-serif; text-decoration:none;}
+ #board .bbs .bottom a span {margin:0 5px}
+#board .bbs .bottom a:nth-child(1), #board .bbs .bottom a:nth-child(9) {color:#554230; font-weight:bold}
+#board .bbs .bottom a:nth-child(2), .bbs .bottom a:nth-child(3),
+#board .bbs .bottom a:nth-child(4), .bbs .bottom a:nth-child(5),
+#board .bbs .bottom a:nth-child(6), .bbs .bottom a:nth-child(7),
+#board .bbs .bottom a:nth-child(8) {background:hsla(32, 99%, 13%, 0.6); border-radius: 10px}
+#board .bbs .bottom a:hover {color:#000;}
+#board .bbs .bottom .list_page{font-weight: bold; color:#000;}
+#board .bbs_view{text-align:left;}
+#board .bbs_view .view{text-align:left; padding-left:10px;}
+ .view_title p{height:29px; margin:0; padding:0;  padding-top:8px; padding-left:10px; }
+#board .bbs_con {padding:20px 10px 0 0; width:100%; }
+#board .bbs_con p{text-align:left; padding-left:10px;}
+#board .bbs_con p:nth-child(2){height:200px;}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+
+#rightcon {float:right}
+#contents {width:676px; height:577px; background: url(../common/img/contents.jpg) no-repeat  0 0}
+
+#rightcon .topcon {width:676px; height:127px; position:relative;}
+#rightcon .topcon p {position:absolute; left:38px; bottom:-10px; width:231px; height:61px; padding: 23px 0 0 24px; 
+                     background: url(../common/img/sublogospan.jpg) no-repeat 0 0;}  
+                    
+#rightcon .topcon ul {position:absolute; bottom:15px; right:40px;}
+#rightcon .topcon ul li {float:left; color:#5a3a20; font-weight: bold; font-size:15px}
+#rightcon .topcon ul li.ho {padding-top:1px}
+#rightcon .topcon ul li span {padding:0 7px 0 7px}
+#rightcon .topcon ul li.pr {text-transform: uppercase; font-size:11px; padding-top:3px}
+#rightcon p.back {position:absolute; right:40px; bottom:22px}

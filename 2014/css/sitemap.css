@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+@import "common.css";
+@import "fonts.css";
+@import "sitemapani.css";
+
+/*wrap*/
+#wrap {width:990px; height:720px}
+body {background: url(../sitemap/sitebody.jpg) repeat-x 0 0}
+
+/* header */
+#header {width:990px; height:190px;  position:relative}
+#header h1 {position:absolute; top:48px; left:30px}
+#header dl {position:absolute; top:10px; right:24px}
+#header dl dd {float:left; background: url(../common/img/topbar.jpg) no-repeat 0 7px; padding: 0 10px 0 10px}
+#header dl dd a {color:#d3bc93; text-transform:uppercase; font-size:11px; font-weight:bold}          
+#header dl dd a:hover {color:#EACE80}                  
+#header dl dd.first {background: none}
+#header p.site {position:absolute; bottom:3px; left:32px; color:#cca675; font-size:40px; font-weight:bold;}
+#header p.txt {position:absolute; bottom:-4px; right:38px; font-size:15px; color:#cca675; font-weight:bold; font-family: NanumBG; letter-spacing:1px; }
+
+/* container */
+#containsite{height:473px} 
+#containsite:after{content:""; display:block}
+#sitecon .sitetop {width:990px; height:116px; position:relative;}
+#sitecon .sitetop p {position:absolute; left:85px; top:50px; width:206px; height:62px; padding: 23px 0 0 24px; 
+                     background: url(../common/img/sublogospan.jpg) no-repeat 0 0;} 
+#sitecon .sitetop span {position:absolute; top:90px; right:55px; color:#6e563d; font-family: NanumBG; letter-spacing:1px; font-weight:bold}                     
+                     
+#sitebody ul.sitemenu {margin:40px 0 0 55px; width:870px; height:285px}
+#sitebody ul.sitemenu li.title1, li.title2, li.title3, li.title4 {float:left; width:150px; height:250px; background: url(../sitemap/sitebar.jpg) no-repeat -1px 0;
+                                                                     text-align:center; padding:0 28px 0 32px; font-size:25px; font-weight:bold; color:#6e563d; text-transform: uppercase}
+#sitebody ul.sitemenu li.title1 {background:none; }
+#sitebody ul.sitemenu li.title1, li.title2 {padding:0 35px 0 39px;}
+#sitebody ul.sitemenu li ul li {clear:both; }
+#sitebody ul.sitemenu li ul li a {display:block; font-size:15px; color:#a91f1c; padding-top:25px; }
+#sitebody ul.sitemenu li ul li a:hover { color:#13136a}
+#sitebody ul.sitemenu li ul li p {font-size:15px; color:#8e6d4a; font-family: NanumBG; line-height:20px}
+
+
+
+/* footer */
+#footer {clear:both; width:990px; height:57px; position:relative}
+#footer span {position:absolute; top:0; right:40px; width:910px; height:0px; border-top:2px solid #95774b; text-indent:-9999px}
+#footer p {position:absolute; top:12px; right:44px; color: #69563A; font-size:12px; text-transform: uppercase; font-weight:bold}
+
+

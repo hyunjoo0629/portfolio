@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+@import "common.css";
+@import "fonts.css";
+@import "subani.css";
+
+/*wrap*/
+#wrap {width:990px; height:1670px;}
+body {background: url(../common/img/body.jpg) repeat-y 0 0}
+
+/* header */
+#header {width:990px; height:86px; position:relative; background: url(../common/img/header.jpg) no-repeat 0 0}
+#header h1 {position:absolute; top:48px; left:30px}
+#header .lnb {position:absolute; top:10px; right:24px;}
+#header dl dd {display: inline; background: url(../common/img/topbar.jpg) no-repeat 0 3px; padding: 0 10px 0 10px}
+#header dl dd a {color:#d3bc93; text-transform:uppercase; font-size:11px; font-weight:bold}          
+#header dl dd a:hover {color:#EACE80}                  
+#header dl dd.first {background: none}
+
+
+/*container*/
+#container05 {height:1527px} 
+#container05:after {content:""; display:block; clear:both}
+
+#leftcon {float:left; width:314px; height:1527px; position:relative}
+
+/* navi */
+#navi {position:absolute; top:90px; left:24px}
+#gnb {position:relative;}
+#gnb>li {width:142px; height:48px; background:url(../common/img/menubar.jpg) no-repeat 0 2px; text-align:center; 
+padding-right: 10px; cursor:pointer}
+#gnb>li>a {color:#EACE80; font-weight:bold; text-transform:uppercase; 
+font-size:13px; line-height:57px;width:142px;height: 57px}   
+#gnb>li:hover >a {color:#B61B2D;}                                      
+#gnb li ul{position:absolute; left:150px; top:0px; width:120px; text-align:left; padding:10px 0 0 10px}
+#gnb li ul li {padding:2px 0 20px 12px; background:url(../common/img/blet.png) no-repeat 15px 5px}
+#gnb li ul li a {color:#c6c3c2; font-weight:bold; font-size:12px; margin-left:15px;}
+#gnb li ul li a:hover {color:#d3bc93;}
+#gnb li.sub1 ul{top:11px; display:none}
+#gnb li.sub2 ul{top:60px; display:none}
+#gnb li.sub3 ul{top:109px; display:none}
+#gnb li.sub4 ul{top:160px; display:none}
+#gnb li.sub5 {text-indent:-9999px; overflow:hidden}
+
+#gnb li:hover ul{display:block}
+
+#leftcon .contact {position:absolute; width:152px; height:231px; background:url(../sub5Img/contactback.jpg) no-repeat 0 0;
+                                  left:38px; bottom:0;}		
+#leftcon .contact ul {padding:100px 0 0 80px}
+#leftcon .contact ul li a {display:block; padding: 5px 0; color:#EACE80; font-weight:bold}
+
+/* rightcon */
+#rightcon {float:right }
+#rightcon {width:676px; height:1527px; }
+#rightcon .topcon {width:676px; height:137px; position:relative; background: url(../sub5Img/topback.jpg) no-repeat  0 0; top:0; left:0;}
+#rightcon .topcon p {position:absolute; left:38px; bottom:-10px; width:231px; height:61px; padding: 23px 0 0 24px; 
+                     background: url(../common/img/sublogospan.jpg) no-repeat 0 0;}  
+                    
+#rightcon .topcon ul {position:absolute; bottom:15px; right:40px;}
+#rightcon .topcon ul li {float:left; color:#5a3a20; font-weight: bold; font-size:15px}
+#rightcon .topcon ul li.ho {padding-top:1px}
+#rightcon .topcon ul li span {padding:0 7px 0 7px}
+#rightcon .topcon ul li.pr {text-transform: uppercase; font-size:11px; padding-top:3px}
+
+/* 내용 */
+#contents {width:676px; height:1390px;}
+#contents .conbody05 {width:600px; height:1351px; background:url(../sub5Img/monun.jpg) no-repeat 0 0; 
+                                            margin:20px 0 0 40px; }
+#contents .conbody05 .gorenewal {padding:51px 0 0 146px; position:relative}
+#contents .conbody05 .gorenewal dl {width:180px; height:94px; position:absolute; bottom:-7px; right:65px;
+                                                                     background:url(../sub5Img/gorenewal.png) no-repeat 0 0;}
+#contents .conbody05 .gorenewal dd {color:#513b2e; text-transform: uppercase; font-weight:bold; margin-left: 79px;}
+#contents .conbody05 .gorenewal dd.refirst {margin-top:25px}    
+                                                                
+#contents .conbody05 .deconcept {margin:39px 0 0 25px}
+#contents .conbody05 .deconcept p.decontitle {width:272px; height:20px; background: url(../sub5Img/deconceptdeco.png) no-repeat -1px -2px;
+                                                                                       margin-top:20px; font-size:20px; font-family: NanumBG; font-weight:bold; color:#41322a; padding:14px 22px;}
+#contents .conbody05 .deconcept p.decontxt {margin:12px 0 0 15px; color:#523b2f; font-size:14px; font-family: NanumBG; font-weight:bold}
+#contents .conbody05 .deconcept ul {width:545px; height:215px; margin-top:16px;}
+#contents .conbody05 .deconcept ul li {float:left; margin:10px;}
+#contents .conbody05 .deconcept ul li p {font-size:20px;  text-transform: uppercase; color:#755a3b; font-weight:bold}
+#contents .conbody05 .deconcept ul li span {color:#70211e}
+#contents .conbody05 .structure {width:540px; height:250px; margin:44px 0 0 34px;}
+#contents .conbody05 .structure dl {float:left;}
+#contents .conbody05 .structure dl.mainstruc {margin-right:6px}
+#contents .conbody05 .structure dl.substruc {margin-left:6px}
+#contents .conbody05 .structure dt {margin-left:33px;}
+#contents .conbody05 .structure .mainstruc dd.mainimg {margin-top:14px; padding:8px; width:244px; height:172px; background:url(../sub5Img/mainstrucdeco.png) no-repeat 0 0}
+#contents .conbody05 .structure .mainstruc dd.maintxt p {font-size:14px; font-family: NanumBG; font-weight:bold; color:#755a3b; margin-left:30px;}
+#contents .conbody05 .structure .mainstruc dd.maintxt span {color:#70211e; margin:0 5px 0 -13px}
+#contents .conbody05 .structure .substruc dd {margin-top:14px; width:244px; height:172px; background:url(../sub5Img/substrucdeco.png) no-repeat 0 0;
+                                                                                      padding:8px; }
+#contents .conbody05 p.back {margin:58px 0 0 19px;}
+
+
+/* footer */
+#footer {clear:both; width:990px; height:57px; position:relative }
+#footer span {position:absolute; top:0; right:40px; width:600px; height:0px; border-top:2px solid #95774b; text-indent:-9999px}
+#footer p {position:absolute; top:10px; right:44px; color: #69563A; font-size:12px; text-transform: uppercase; font-weight:bold;}

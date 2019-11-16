@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@import "common.css";
+@import "layout.css";
+@import "fonts.css";
+
+#header p.play {position:absolute; top:10px; left:320px; font-family:NanumBG; color:#755a3b; letter-spacing: 1px;}
+#header p.play span.playdeco {color:#70211e; margin-right:5px;}
+#header p.play span.playbr {padding-left:10px}
+/* container */
+#contents {float:right; width:676px; height:577px; background: url(../common/img/contents.jpg) no-repeat 0 0}            
+#contents .conbody ul.anibutton li {position:absolute; top:0; left:0; z-index:30; text-indent:-9999px; width:19px; height:19px; 
+                                                                background: url(../mainImg/imgbtn.jpg) no-repeat 0 0; cursor:pointer}                                      
+#contents .conbody ul.anibutton li.btn1 {top:137px; left:147px}                       
+#contents .conbody ul.anibutton li.btn2 {top:99px; left:169px}                       
+#contents .conbody ul.anibutton li.btn3 {top:70px; left:196px}                       
+#contents .conbody ul.anibutton li.btn4 {top:47px; left:228px}                       
+#contents .conbody ul.anibutton li.btn5 {top:30px; left:265px}
+#contents .conbody ul.anibutton li.on {background: url(../mainImg/imgbtn2.jpg) 0 0 no-repeat}
+#contents .conbody p {position:absolute; top:370px; left:90px; background:url(../sub1Img/mouseover.jpg) 0 5px no-repeat; z-index:50; 
+                                          padding-left:15px; font-size:12px; font-weight:bold; text-transform: uppercase; color:#4f4437}
+/* imgani */
+#contents .conbody {position:relative; width:646px; height:519px; top:0; left:30px}
+#contents .conbody img {position:absolute; z-index:20; top:0; left:1px}                     
+#contents .conbody .img {position:absolute; z-index:10; width:365px; height:363px; top:60px; left:167px} 
+
+#contents .conbody dl.concept {position:absolute; z-index:30; width:110px; height:90px; right:97px; bottom:27px}
+#contents .conbody .concept dt {background: url(../common/img/blet.png) no-repeat 25px 7px; padding: 0 5px 0 0; font-size:16px; 
+                                                            color:#AD1714; font-weight:bold; text-align:right}
+#contents .conbody .concept dd {color:#fff; font-size:12px; font-family:NanumBG; margin-top:3px}
+

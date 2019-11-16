@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+#sitebody ul.sitemenu li.title1, li.title2, li.title3, li.title4 {
+	animation: sitesubtitle 2.1s 1 ease-in-out;
+	-moz-animation: sitesubtitle 2.1s 1 ease-in-out;
+	-webkit-animation: sitesubtitle 2.1s 1 ease-in-out;
+	-ms-animation: sitesubtitle 2.1s 1 ease-in-out;
+	-o-animation: sitesubtitle 2.1s 1 ease-in-out;
+	}
+@keyframes sitesubtitle{
+				0%{opacity:0; transform:translateY(-10px)}
+				60%{opacity:0; transform:translateY(-10px)}
+				90%{opacity:1; transform:translateY(0)}
+				100%{opacity:1; transform:translateY(0)}
+}
+@-moz-keyframes sitesubtitle{
+				0%{opacity:0; transform:translateY(-10px)}
+				60%{opacity:0; transform:translateY(-10px)}
+				90%{opacity:1; transform:translateY(0)}
+				100%{opacity:1; transform:translateY(0)}
+}
+@-webkit-keyframes sitesubtitle{
+				0%{opacity:0; transform:translateY(-10px)}
+				60%{opacity:0; transform:translateY(-10px)}
+				90%{opacity:1; transform:translateY(0)}
+				100%{opacity:1; transform:translateY(0)}
+}
+@-ms-keyframes sitesubtitle{
+				0%{opacity:0; transform:translateY(-10px)}
+				60%{opacity:0; transform:translateY(-10px)}
+				90%{opacity:1; transform:translateY(0)}
+				100%{opacity:1; transform:translateY(0)}
+}
+@-o-keyframes sitesubtitle{
+				0%{opacity:0; transform:translateY(-10px)}
+				60%{opacity:0; transform:translateY(-10px)}
+				90%{opacity:1; transform:translateY(0)}
+				100%{opacity:1; transform:translateY(0)}
+}
+
+#sitebody ul.sitemenu li ul li {
+	animation: sitesubtxt 2.1s 1 ease-in-out;
+	-moz-animation: sitesubtxt 2.1s 1 ease-in-out;
+	-webkit-animation: sitesubtxt 2.1s 1 ease-in-out;
+	-ms-animation: sitesubtxt 2.1s 1 ease-in-out;
+	-o-animation: sitesubtxt 2.1s 1 ease-in-out;
+	}
+@keyframes sitesubtxt{
+				0%{opacity:0; transform:translateY(-10px)}
+				80%{opacity:0; transform:translateY(-10px)}
+				100%{opacity:1; transform:translateY(0)}
+}
+@-moz-keyframes sitesubtxt{
+				0%{opacity:0; transform:translateY(-10px)}
+				80%{opacity:0; transform:translateY(-10px)}
+				100%{opacity:1; transform:translateY(0)}
+}
+@-webkit-keyframes sitesubtxt{
+				0%{opacity:0; transform:translateY(-10px)}
+				80%{opacity:0; transform:translateY(-10px)}
+				100%{opacity:1; transform:translateY(0)}
+}
+@-ms-keyframes sitesubtxt{
+				0%{opacity:0; transform:translateY(-10px)}
+				80%{opacity:0; transform:translateY(-10px)}
+				100%{opacity:1; transform:translateY(0)}
+}
+@-o-keyframes sitesubtxt{
+				0%{opacity:0; transform:translateY(-10px)}
+				80%{opacity:0; transform:translateY(-10px)}
+				100%{opacity:1; transform:translateY(0)}
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+ /* wrap */
+body {background: url(../common/img/body.jpg) repeat-y 0 0}
+#wrap {width:990px; height:720px;}
+
+/* header */
+#header {width:990px; height:86px; no-repeat 0 0; position:relative; background: url(../common/img/header.jpg) no-repeat 0 0}
+#header h1 {position:absolute; top:48px; left:30px}
+#header .lnb {position:absolute; top:10px; right:24px;}
+#header dl dd {display: inline; background: url(../common/img/topbar.jpg) no-repeat 0 3px; padding: 0 10px 0 10px}
+#header dl dd a {color:#d3bc93; text-transform:uppercase; font-size:11px; font-weight:bold}          
+#header dl dd a:hover {color:#EACE80}                  
+#header dl dd.first {background: none}
+
+#container {height:577px}
+#container:after {content:""; display:block; clear:both}
+
+#leftcon {float:left; width:314px; height:577px; background: url(../common/img/sidebar.jpg) no-repeat 0 0; position:relative}
+
+
+/* navi */
+#navi {position:absolute; top:90px; left:24px}
+#gnb {position:relative;}
+#gnb>li {width:142px; height:48px; background:url(../common/img/menubar.jpg) no-repeat 0 2px; text-align:center; 
+padding-right: 10px; cursor:pointer}
+#gnb>li>a {color:#EACE80; font-weight:bold; text-transform:uppercase; 
+font-size:13px; line-height:57px;width:142px;height: 57px}   
+#gnb>li:hover >a {color:#B61B2D;}                                      
+#gnb li ul{position:absolute; left:150px; top:0px; width:120px; text-align:left; padding:10px 0 0 10px}
+#gnb li ul li {padding:2px 0 20px 12px; background:url(../common/img/blet.png) no-repeat 15px 5px}
+#gnb li ul li a {color:#c6c3c2; font-weight:bold; font-size:12px; margin-left:15px;}
+#gnb li ul li a:hover {color:#d3bc93;}
+#gnb li.sub1 ul{top:11px; display:none}
+#gnb li.sub2 ul{top:60px; display:none}
+#gnb li.sub3 ul{top:109px; display:none}
+#gnb li.sub4 ul{top:160px; display:none}
+#gnb li.sub5 {text-indent:-9999px; overflow:hidden}
+
+#gnb li:hover ul{display:block}
+		
+#leftcon .contact ul {position:absolute; left:120px; bottom:67px}
+#leftcon .contact ul li a {display:block; padding: 5px 0; color:#EACE80; font-weight:bold}
+
+/* footer */
+#footer {clear:both; width:990px; height:57px; position:relative }
+#footer span {position:absolute; top:0; right:40px; width:600px; height:0px; border-top:2px solid #95774b; text-indent:-9999px}
+#footer p {position:absolute; top:10px; right:44px; color: #69563A; font-size:12px; text-transform: uppercase; font-weight:bold;}
