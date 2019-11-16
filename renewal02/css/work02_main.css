@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+@import "common.css";
+@import "fonts.css";
+
+ /* wrap */
+body {width:100%; font-family:NanumBG; color:#333; background: url(../images/bg.png) repeat-x 0 0;}
+
+/**/
+
+/*header*/
+#wrap {width:1200px; height:100%; margin:0 auto; }
+
+#header {width:1200px; height:212px; position:relative; top:0; left:0;}
+#header h1 {position:absolute; top:78px; left:460px;}
+#header .topmenu {position:absolute; right:0px; top:12px;}
+#header .topmenu li {float:left; margin-right:40px; }
+#header .topmenu li a {font-family:NanumBGB; color:#fff; font-size:15px; opacity:0.9;}
+#header .topmenu li:nth-child(3) a {color:#ffc1c1;}
+#header .topmenu li a:hover {opacity:1;}
+#header .topmenu li:last-child {margin-right:0px;}
+
+
+#gnb {width:1200px; position:absolute; top:172px; left:0;}
+#gnb li {float:left; margin-left:117px; }
+#gnb li:first-child {margin-left:0px;}
+#gnb li a {color:#717171; font-size:20px; padding-bottom:14px;}
+#gnb li a:hover {color: #4fa240; border-bottom:5px solid #4fa240}
+
+
+/*container*/
+
+#container {width:1200px; height:100%; margin:15px auto; }
+
+#visual .visualimg {width:868px; height:430px; position:relative; top:0; left:0; float:left; overflow:hidden;}
+#visual .visualimg>ul {width:2604px; height:430px; position:absolute;}
+#visual .visualimg>ul li {float:left; width:868px; height:430px;}
+
+#visual .visualimg_btn {width:120px; height:10px; position:absolute; bottom:10px; right:42%}
+#visual .visualimg_btn li {display:block; width:30px; height:8px; float:left; margin-right:10px; cursor: pointer; background:#6e6e6e;}
+#visual .visualimg_btn .on {background:#db4242;}
+
+#visual .quick {float:right}
+#visual .quick ul li {margin-top:2px;}
+#visual .quick ul li:first-child {margin-top:0px}
+
+/*contents*/
+#contents {width:1200px; height:100%; clear:both;}
+#conleft {float:left; margin-top:15px;}
+#conleft .box1 {width:388px; height:178px; border:1px solid #c4c4c4}
+#conleft .box1 h2 {font-size: 24px; text-align:center; letter-spacing:-3px; margin-top:40px; color:#878787; }
+#conleft .box1 h2 span {color:#d15353} /*font-family:NanumBGB; */
+#conleft .box1 p {text-align:center; font-size:58px; font-family:NanumBGB; margin-top:10px; color:#454545}
+
+#conleft .box2 {width:310px; height:312px; background: url(../images/search_bg.jpg) no-repeat 0 0; padding:40px;}
+#conleft .box2 h2 {font-size: 24px; color:#fff; font-family:NanumBGB;}
+#conleft .box2 p {font-size:18px; margin:30px 0 80px 0; color:#e0e0e0; line-height:24px}
+#conleft .box2 .area {margin-top:5px;}
+#conleft .box2 .search {margin:5px 5px 0 -4px}
+#area_list {width:180px; height:35px; font-size:16px; color:#747474; padding:5px 10px;}
+#search_bar {width:220px; height:25px; padding:5px 10px; font-size:16px; color:#747474;}
+
+#conright {float:right; margin-top:15px;}
+
+#conright .box1 {width:795px; height:258px;}
+#conright .box1 dl {position:relative;}
+#conright .box1 dl dt {width:152px; height:127px; border:1px solid #cacaca; background:#eeeeee;}
+#conright .box1 dl dt a {display:block; font-family:NanumBGB; width:152px; height:127px; font-size:20px; color:#b1b1b1; text-align:center; line-height:130px;}
+
+#conright .box1 dl dt.on {background:#eb8770; border:1px solid #eb8770;}
+#conright .box1 dl dt.on a {color:#fff}
+
+#conright .box1 dl dd {display:block; width:581px; height:198px; position:absolute; left:154px; top:0; background:#eeeeee; padding:30px}
+#conright .box1 dl dd.on{z-index: 1}
+
+/*#conright .box1 dl dd ul{float:left; width:648px;}*/
+#conright .box1 dl dd ul li {padding:20px 0 0 30px; background: url(../images/board_blet.jpg) no-repeat 15px 25px;}
+#conright .box1 dl dd ul li a { font-size:18px; color:#525252; }
+#conright .box1 dl dd ul li a:hover {border-bottom:1px solid #525252}
+#conright .box1 dl span.more {position:absolute; top:45px; right:45px;}
+
+#conright .box2 ul li {float:left; margin-left:5px; position:relative;}
+#conright .box2 ul li:first-child {margin-left:0px}
+/*#conright .box2 ul li p {font-size:20px; color:#fff; line-height:200px; text-align: center;}*/
+#conright .box2 ul li p {position: absolute; left:0; top:0; width:395px; height:114px; background-color:#000; opacity:0;
+			font-size:20px; color:#fff; text-align: center; line-height:55px; padding:100px 0}
+#conright .box2 ul li p span {font-size:34px; border-bottom:3px solid #53c43d; padding-bottom:3px;}
+
+#banner {clear:both;}
+#banner ul li {float:left; margin-top:15px}
+
+/*sitemap*/
+#sitemapwrap {width:100%;}
+#sitemap {width:1200px;margin:0px auto;}
+#sitemap dl {position:relative; overflow:hidden;}
+#sitemap dl dt {float:left; width:125px;text-indent:15px; font-family:NanumBG; margin-top:15px;}
+#sitemap dl dd ul {display:none; position:absolute; top:50px;}
+#sitemap dl dd ul li {margin-bottom:10px;}
+#sitemap dl dd ul li a {font-size:14px; color:gray}
+#sitemap dl dd ul li a:hover {color:green;}
+#sitemap dl dd:nth-of-type(1) ul{display:block;left:13px;}
+#sitemap dl dd:nth-of-type(2) ul{display:block;left:140px;}
+#sitemap dl dd:nth-of-type(3) ul{display:block;left:264px;}
+#sitemap dl dd:nth-of-type(4) ul{display:block;left:390px;}
+#sitemap dl dd:nth-of-type(5) ul{display:block;left:514px;}
+#sitemap dl dd:nth-of-type(6) ul{display:block;left:638px;}
+#sitemap dl dd:nth-of-type(7) ul{display:block;left:764px;}
+#sitemap dl dd:nth-of-type(8) ul{display:block;left:890px;}
+
+
+
+/*footer*/
+#footer {width:1200px; height:180px; margin:0 auto; clear:both;}
+
+#footer .footer_bar {margin-top:36px; float:left}
+#footer .footer_bar ul li a {float:left; padding-right:10px; margin-right:10px; color:#414141; border-right:1px solid #878787;}
+
+#footer .social {margin-top:36px; float:right}
+#footer .social ul li a {float:left; padding-right:10px; margin-right:10px; color:#2066a2; border-right:1px solid #2066a2;}
+#footer .social ul li a:hover {color:#0b4576}
+
+#footer ul li:last-child a {border-right:none;}
+
+#footer .addr {float:left; color:#676767; line-height:20px; font-size:14px; margin-top:35px;}
+
+#footer .site {float:right; margin-top:45px; }
+#footer .site>div {float:left; margin-left:30px;}
+#selectSite {width:135px; height:26px; font-size:14px;}
+#goFamilySite {margin-left:3px;}
